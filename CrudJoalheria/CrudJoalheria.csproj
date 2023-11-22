@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Joia - Cópia %282%29\**" />
+    <Compile Remove="Views\Joia - Cópia\**" />
+    <Compile Remove="Views\NovaPasta\**" />
+    <Content Remove="Views\Joia - Cópia %282%29\**" />
+    <Content Remove="Views\Joia - Cópia\**" />
+    <Content Remove="Views\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Joia - Cópia %282%29\**" />
+    <EmbeddedResource Remove="Views\Joia - Cópia\**" />
+    <EmbeddedResource Remove="Views\NovaPasta\**" />
+    <None Remove="Views\Joia - Cópia %282%29\**" />
+    <None Remove="Views\Joia - Cópia\**" />
+    <None Remove="Views\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
       <PrivateAssets>all</PrivateAssets>

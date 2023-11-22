@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KR7BkQMzvsq65qxwASNyjEPrLm4oLohaBNsWR05sPKeyEm88XODerIfS3AqQc/YgxZ9H9SLs8HOs735YfYNAtg==",
+  "dgSpecHash": "dSNmT0m60GcXOWN+BBtMBVra3Xk23WUfZOPq1z8dJW0e3+6OG4iW4YuUTYmg7JHX0m6mN3VKvqhSbWzSBItnjQ==",
   "success": true,
-  "projectFilePath": "C:\\src\\CrudJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

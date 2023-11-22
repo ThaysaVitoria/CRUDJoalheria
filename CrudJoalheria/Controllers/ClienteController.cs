@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CrudJoalheria.Controllers
 {
-	public class JoiaController : Controller
+	public class ClienteController : Controller
 	{
 		readonly private ApplicationDBContext _db;
 
-		public JoiaController(ApplicationDBContext db)
+		public ClienteController(ApplicationDBContext db)
 		{
 			_db = db;
 		}
@@ -16,8 +16,8 @@ namespace CrudJoalheria.Controllers
 
 		public IActionResult Index()
 		{
-			IEnumerable<JoiaModel> Joia = _db.Joia;
-			return View(Joia);
+			IEnumerable<ClienteModel> Cliente = _db.Cliente;
+			return View(Cliente);
 		}
 		public IActionResult Cadastrar()
 		{

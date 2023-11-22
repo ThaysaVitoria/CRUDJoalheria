@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\CrudJoalheria\\CrudJoalheria\\CrudJoalheria.csproj": {}
+    "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\CrudJoalheria.csproj": {}
   },
   "projects": {
-    "C:\\src\\CrudJoalheria\\CrudJoalheria\\CrudJoalheria.csproj": {
+    "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\CrudJoalheria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\CrudJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
         "projectName": "CrudJoalheria",
-        "projectPath": "C:\\src\\CrudJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\CrudJoalheria.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\CrudJoalheria\\CrudJoalheria\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\CRUDJoalheria\\CrudJoalheria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

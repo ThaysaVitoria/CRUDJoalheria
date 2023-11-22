@@ -11,5 +11,7 @@ namespace CrudJoalheria.Data
 		}
 
 		public DbSet<JoiaModel> Joia { get; set; }
+		public DbSet<VendedorModel> Vendedor { get; set; }
+		public DbSet<ClienteModel> Cliente { get; set; }
 	}
 }
