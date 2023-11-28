@@ -23,5 +23,17 @@ namespace CrudJoalheria.Controllers
 		{
 			return View();
 		}
+		[HttpPost]
+
+		public IActionResult Cadastrar(JoiaModel joiaModel) {
+			if (ModelState.IsValid)
+			{
+				_db.Joia.Add(joiaModel);
+				_db.SaveChanges();
+
+				return RedirectToAction("Index");
+			}
+			return View();
+		}
 	}
 }
