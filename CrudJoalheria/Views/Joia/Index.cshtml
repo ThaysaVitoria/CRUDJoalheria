@@ -35,6 +35,9 @@
 					<td>@joia.Material</td>
 					<td>@joia.Peso</td>
 					<td>@joia.Valor</td>
+					<td> 
+						<a asp-controller="Joia" asp-action="Editar" asp-route-id="@joia.Id" class="btn btn-warning mx-2">Editar</a>
+						<a asp-controller="Joia" asp-action="Excluir" asp-route-id="@joia.Id" class="btn btn-danger mx-2">Excluir</a>
 				</tr>
 			}
 		}

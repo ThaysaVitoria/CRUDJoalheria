@@ -1,14 +1,14 @@
 ﻿@model JoiaModel
 @{
-    ViewData["title"] = "Cadastrar Joia";
+    ViewData["title"] = "Editar Joia";
 }
 
 <div class="container bg-dark p-5 rounded-5">
     <div class="mb-5 text-center">
-     <h1 class="text-light">Cadastro de Joias</h1>
+        <h1 class="text-light">Editar Joia</h1>
     </div>
- <form method="post" asp-controller="Joia" asp-action="Cadastrar">
-
+    <form method="post" asp-controller="Joia" asp-action="Editar">
+        <input type="hidden" asp-for="Id"/>
         <div class="form-group">
             <label for="Tipo" class="text-light">Tipo Joia</label>
             <input type="text" class="form-control" asp-for="Tipo" id="Tipo" aria-describedby="Tipo" placeholder="Tipo da joia" />

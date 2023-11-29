@@ -35,5 +35,76 @@ namespace CrudJoalheria.Controllers
 			}
 			return View();
 		}
+
+
+		[HttpGet]
+		public IActionResult Editar(int? id)
+		{
+			if (id == null || id == 0)
+			{
+				return NotFound();
+			}
+
+			JoiaModel joia = _db.Joia.FirstOrDefault(x => x.Id == id);
+
+			if (joia == null)
+			{
+				return NotFound();
+			}
+
+			return View(joia);
+		}
+
+		[HttpPost]
+		public IActionResult Editar(JoiaModel joia)
+		{
+			if (ModelState.IsValid)
+			{
+				_db.Joia.Update(joia);
+				_db.SaveChanges();
+
+				return RedirectToAction("Index");
+			}
+			return View(joia);
+		}
+
+		[HttpGet]
+		public IActionResult Excluir(int? id)
+		{
+			if (id == null || id == 0)
+			{
+				return NotFound();
+			}
+
+			JoiaModel joia = _db.Joia.FirstOrDefault(x => x.Id == id);
+
+			if (joia == null)
+			{
+				return NotFound();
+			}
+
+			return View(joia);
+		}
+
+		[HttpPost]
+		public IActionResult Excluir(JoiaModel joia)
+		{
+			if (joia == null)
+			{
+				return NotFound();
+			}
+
+			_db.Joia.Remove(joia);
+			_db.SaveChanges();
+
+			return RedirectToAction("Index");
+		}
 	}
 }
+
+
+
+
+
+
+

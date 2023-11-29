@@ -22,6 +22,9 @@
 					<td>@cliente.CPF</td>
 					<td>@cliente.Endereco</td>
 					<td>@cliente.Telefone</td>
+
+					<a asp-controller="Cliente" asp-action="Editar" asp-route-id="@cliente.Id" class="btn btn-warning mx-2">Editar</a>
+					<a asp-controller="Cliente" asp-action="Excluir" asp-route-id="@cliente.Id" class="btn btn-danger mx-2">Excluir</a>
 				</tr>
 			}
 		}
